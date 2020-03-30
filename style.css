@@ -1,0 +1,158 @@
+
+body{
+	font-family: sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.bg{
+	display: flex;
+	justify-content: space-between;
+}
+.bg{
+	width: 1200px;
+	margin: 0 auto;
+}
+.title-top{
+	margin-right: 100px;
+}
+.main{
+	width: 1200px;
+	margin:0 auto;
+}
+/*==menu==*/
+
+
+.menu-beta {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.menu-beta ul {
+    height: 40px;
+    margin: 0px 8px 0px 8px;
+    line-height: 40px;
+}
+.menu-beta ul li {
+	list-style-type: none;
+}
+.menu-beta ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #151313;
+    font-weight:bold;
+}
+.ngang{
+	width: 10px;
+	background-color: red;
+}
+.menu-beta ul li a:hover{
+	border-bottom: 2px solid red;
+}
+/*bannner*/
+.header-banner img {
+    padding-top: 20px;  
+    width: 1200px;
+}
+.header-text h3{
+text-transform:uppercase;
+text-align: center;
+
+font-family: sans-serif;
+margin-top: 20px;
+}
+.header-text img{
+	width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.header-text{margin: 55px 0px;
+}
+
+.header-text p {
+    text-align: center;
+    line-height: 33px;
+}
+
+/*-----review-------------*/
+.review{
+	display: flex;
+	justify-content: space-between;
+}
+.review h4{
+	font-size: 14px;  
+    margin: 5px 0px;
+}
+.review h4 a{
+	text-decoration: none;
+	 color: #ab1d1d;
+}
+.review p{
+	font-size: 15px;
+}
+.review a:hover{
+	color: red;
+}
+
+
+/*phần ảnh event*/
+a.content-event {
+    width: 560px;
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+  background: #00000082;
+    color: white;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.news-left {
+    width: 580px;
+    height: 378px;
+    position: relative;
+}
+a.content-event.fa {
+    width: 260px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.news {
+    width: 280px;
+    height: 184px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.list-event {
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-bottom: 100px;
+}
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.list-event img {
+    border-bottom: 3px solid #eb4646;
+    margin-bottom: 100px;
+}
+a.content-event:hover{
+    color:#eaeb46;
+}
+.news.poto img {
+    width: 280px;
+    height: 184px;
+}
